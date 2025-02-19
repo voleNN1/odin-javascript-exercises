@@ -1,9 +1,10 @@
-const repeatString = function(repeatThis, repeatTimes) {
-    for (i = 0; i <= repeatTimes; i++) {
-        repeatThis
+const repeatString = function(word, times) {
+    let string = "";
+    for (let i = 0; i < times; i++) {
+        string += word;
     }
-    return console.log(repeatThis);
-};
+    return string;
+}
 
 // Do not edit below this line
 module.exports = repeatString;
